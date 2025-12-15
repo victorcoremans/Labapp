@@ -96,7 +96,7 @@ justify-content: center;
 .hidden {
     visibility: hidden;
 }
-.navbar-sleepmask {
+.navbar-product {
     margin: 15px;
     display: flex;
     justify-content: space-between;
@@ -105,27 +105,27 @@ justify-content: center;
 
     color: var(--green);
 }
-.main-sleepmask {
+.main-product {
     display: flex;
     color: var(--green);
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
-.main-sleepmask p {
-      font-size: 15px;
-     margin: 125px;
+.main-product p {
+      font-size: 18px;
+     margin: 75px;
 }
-.main-sleepmask img {
+.main-product img {
   width: 250px;
     height: 188px;
 
 }
-.main-sleepmask a {
+.main-product a {
+
      text-decoration: none;
     font-size: 30px;
 border-radius: 50px;
-text-align: center;
 color: var(--white);
 background-color:var(--red);
 width: 100px;
