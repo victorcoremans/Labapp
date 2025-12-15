@@ -1,0 +1,137 @@
+:root {
+  --blue: #7fa8a0;
+  --red: #c97e63;
+  --green: #8e8c6f;
+  --white: #f3e8d2;
+  --brown: #b6a188;
+}
+body {
+margin: 0px;
+background-color: var(--white);
+}
+p {
+  font-family: "Agrandir";
+}
+.hero-img {
+ background-image: url(Assets/pexels-tonderue-34743985\ 15.png);
+background-size: contain; 
+background-repeat: no-repeat;
+ /* display: flex;
+ justify-content: center;
+ align-items: center; */
+ padding-top: 120px;
+ padding-bottom: 130px;
+
+}
+.hero-img img {
+     display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: -50px;
+ margin-left: 85px;
+}
+.landing p {
+      font-size: 24px;
+      color: var(--green);
+}
+.landing {
+
+    margin: 1%;
+    display: flex;
+    align-items: center;
+    padding: 25px;
+    gap: 50px;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.landing a {
+    text-decoration: none;
+    font-size: 30px;
+border-radius: 50px;
+text-align: center;
+color: var(--white);
+background-color:var(--red);
+width: 100px;
+height: 64px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.nav-shop {
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+
+    color: var(--green);
+}
+.shop {
+    display: grid;
+    grid-template-columns:1fr 1fr ;
+    place-items: center;
+    align-items: center;
+
+}
+.card {
+        /* margin: 15px; */
+        color: var(--green);
+
+}
+
+.tekst-card {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+.tekst-navbar {
+  line-height: 0.1;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hidden {
+    visibility: hidden;
+}
+.navbar-sleepmask {
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+
+    color: var(--green);
+}
+.main-sleepmask {
+    display: flex;
+    color: var(--green);
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.main-sleepmask p {
+      font-size: 15px;
+     margin: 125px;
+}
+.main-sleepmask img {
+  width: 250px;
+    height: 188px;
+
+}
+.main-sleepmask a {
+     text-decoration: none;
+    font-size: 30px;
+border-radius: 50px;
+text-align: center;
+color: var(--white);
+background-color:var(--red);
+width: 100px;
+height: 64px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
