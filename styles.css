@@ -6,6 +6,7 @@
   --brown: #b6a188;
 }
 body {
+    color-scheme: light;
 margin: 0px;
 /* background-color: var(--white); */
 background-color:#f3e8d2 ;
