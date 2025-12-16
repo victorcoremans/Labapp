@@ -3,19 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="color-scheme" content="light">
+
     <title>Document</title>
-    <style>
-        :root {
-                        color-scheme: light !important;
+<style>
+:root {
+  color-scheme: light; /* voor UI-elementen */
+}
 
-        }
-        body {
-                                    color-scheme: light !important;
+html, body {
+  background-color: #f3e8d2 !important;
+  color: #8e8c6f !important;
+}
 
-            background-color: #f3e8d2;
-            color: #8e8c6f;
-        }
-    </style>
+/* Zorg dat niets automatisch switcht */
+* {
+  background-color: inherit;
+  color: inherit;
+}
+
+/* Form controls expliciet */
+input, textarea, select, button {
+  background-color: #f3e8d2;
+  color: #8e8c6f;
+  border-color: #8e8c6f;
+}
+</style>
 </head>
 <body>
     <p>test test test test test </p>
