@@ -7,7 +7,9 @@
 }
 body {
 margin: 0px;
-background-color: var(--white);
+/* background-color: var(--white); */
+background-color:#f3e8d2 ;
+
 }
 p {
   font-family: "Agrandir";
