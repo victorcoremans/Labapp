@@ -4,11 +4,10 @@
   --green: #8e8c6f;
   --white: #f3e8d2;
   --brown: #b6a188;
-      color-scheme: light;
-
+  
 }
 body {
-    /* color-scheme: light; */
+    color-scheme: light;
 margin: 0px;
 /* background-color: var(--white); */
 background-color:#f3e8d2 ;
